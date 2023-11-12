@@ -1,0 +1,39 @@
+body {
+    background: #f0f2f7;
+    color: #303438;
+    font-size: 18px;
+}
+.container--my {
+    max-width: 730px;
+    padding: 0 16px;
+}
+
+.btn {
+    border-radius: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 16px;
+    padding: 9px 24px;
+}
+
+.work-card {
+    border-radius: 32px;    
+    margin: 0 0 32px;
+    padding: 0 16px 16px;
+    background: #fff;
+    overflow: hidden;
+}
+.work-card__img {
+    max-width: 700px;
+    margin: 0 -16px 16px;
+}
+.work-card__title {
+    font-size: 24px;
+    margin: 0;
+}
+.work-card__subtitle {
+    color: #707478;
+}
+.work-card__descr {
+    margin-bottom: 32px;
+}
