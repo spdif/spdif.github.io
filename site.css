@@ -4,7 +4,7 @@ body {
     font-size: 18px;
 }
 .container--my {
-    max-width: 730px;
+    max-width: 732px;
     padding: 0 16px;
 }
 
@@ -23,8 +23,18 @@ body {
     background: #fff;
     overflow: hidden;
 }
+.work-card__link {
+    color: #303438;
+    text-decoration: none;
+}
+.work-card__link:hover,
+.work-card__link:active {
+    color: #303438;
+    text-decoration: underline;
+}
 .work-card__img {
     max-width: 700px;
+    width: calc(100% + 32px);
     margin: 0 -16px 16px;
 }
 .work-card__title {
@@ -32,8 +42,17 @@ body {
     margin: 0;
 }
 .work-card__subtitle {
+    line-height: 1;
     color: #707478;
 }
 .work-card__descr {
     margin-bottom: 32px;
+}
+.work-card__btn {
+    margin-right: 16px;
+}
+@media(max-width: 500px) {
+    .work-card__btn:not(:last-child) {
+        margin-bottom: 16px;
+    }
 }
