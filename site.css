@@ -27,8 +27,8 @@ body {
     color: #303438;
     text-decoration: none;
 }
-.work-card__link:hover,
-.work-card__link:active {
+
+.work-card__link:hover, .work-card__link:active {
     color: #303438;
     text-decoration: underline;
 }
