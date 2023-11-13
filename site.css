@@ -8,12 +8,20 @@ body {
     padding: 0 16px;
 }
 
+.btn.back-btn {
+    position: fixed;
+    top: 8px;
+    padding: 6px 24px 8px;
+    border-radius: 50px;
+    backdrop-filter: saturate(1.8) blur(20px);
+}
+
 .btn {
     border-radius: 40px;
     font-size: 18px;
     line-height: 24px;
     margin-right: 16px;
-    padding: 9px 24px;
+    padding: 8px 24px 10px;
 }
 
 .work-card {
@@ -51,8 +59,35 @@ body {
 .work-card__btn {
     margin-right: 16px;
 }
+
+.inner-title {
+    margin-top: 3.5rem;
+    margin-bottom: 0;
+}
+
+.svg-ico {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    fill: currentColor
+}
+
+.page-end {
+    height: 32px;
+    width: 100%;
+    margin: 16px 0;
+}
+
 @media(max-width: 500px) {
     .work-card__btn:not(:last-child) {
         margin-bottom: 16px;
+    }
+    .btn.back-btn {
+        position: fixed;
+        top: auto;
+        bottom: 8px;
     }
 }
