@@ -51,7 +51,7 @@ body {
     margin: 0;
 }
 .work-card__subtitle {
-    line-height: 1;
+    line-height: 20px;
     color: #707478;
 }
 .work-card__descr {
