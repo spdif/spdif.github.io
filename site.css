@@ -12,7 +12,8 @@ body {
     position: fixed;
     top: 8px;
     padding: 6px 24px 8px;
-    border-radius: 50px;
+    border-radius: 50px;    
+    -webkit-backdrop-filter: saturate(1.8) blur(20px);
     backdrop-filter: saturate(1.8) blur(20px);
 }
 
@@ -75,13 +76,10 @@ body {
     fill: currentColor
 }
 
-.page-end {
-    height: 32px;
-    width: 100%;
-    margin: 16px 0;
-}
-
 @media(max-width: 500px) {
+    .container--my {
+        padding-bottom: 48px;
+    }
     .work-card__btn:not(:last-child) {
         margin-bottom: 16px;
     }
