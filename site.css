@@ -76,6 +76,13 @@ body {
     fill: currentColor
 }
 
+.inner__img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 16px;
+    margin: 0 0 16px;
+}
+
 @media(max-width: 500px) {
     .container--my {
         padding-bottom: 48px;
