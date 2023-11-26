@@ -3,6 +3,11 @@ body {
     color: #303438;
     font-size: 18px;
 }
+
+ol, ul {
+    padding-left: 1.25rem;
+}
+
 .container--my {
     max-width: 732px;
     padding: 0 16px;
@@ -13,6 +18,7 @@ body {
     top: 8px;
     padding: 6px 24px 8px;
     border-radius: 50px;    
+    background-color: #ffffff66;
     -webkit-backdrop-filter: saturate(1.8) blur(20px);
     backdrop-filter: saturate(1.8) blur(20px);
 }
@@ -81,6 +87,10 @@ body {
     max-width: 700px;
     border-radius: 16px;
     margin: 0 0 16px;
+}
+
+.lg-backdrop {
+    background-color: #000000f0 !important;
 }
 
 @media(max-width: 500px) {
