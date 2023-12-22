@@ -32,10 +32,26 @@ ol, ul {
     padding: 8px 24px 10px;
 }
 
+.text-card {
+    border-radius: 32px;    
+    margin: 0 0 16px;
+    padding: 16px 24px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.text-card--first {
+    margin-top: 3.5rem;
+}
+
+.text-card > p:last-child {
+    margin-bottom: 0;
+}
+
 .work-card {
     border-radius: 32px;    
     margin: 0 0 32px;
-    padding: 0 16px 16px;
+    padding: 0 24px 16px;
     background: #fff;
     overflow: hidden;
 }
@@ -50,8 +66,8 @@ ol, ul {
 }
 .work-card__img {
     max-width: 700px;
-    width: calc(100% + 32px);
-    margin: 0 -16px 16px;
+    width: calc(100% + 48px);
+    margin: 0 -24px 16px;
 }
 .work-card__title {
     font-size: 24px;
@@ -66,10 +82,11 @@ ol, ul {
 }
 .work-card__btn {
     margin-right: 16px;
+    margin-bottom: 8px;
 }
 
 .inner-title {
-    margin-top: 3.5rem;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -92,6 +109,15 @@ ol, ul {
 
 .lg-backdrop {
     background-color: #000000f0 !important;
+}
+
+.blog-images figcaption {
+    margin-top: -8px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #707478;
 }
 
 @media(max-width: 500px) {
