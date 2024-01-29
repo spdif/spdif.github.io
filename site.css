@@ -24,12 +24,25 @@ ol, ul {
     backdrop-filter: saturate(1.8) blur(20px);
 }
 
+.btn.back-btn:hover {
+    background-color: #00000066;
+}
+
 .btn {
     border-radius: 40px;
     font-size: 18px;
     line-height: 24px;
     margin-right: 16px;
     padding: 8px 24px 10px;
+}
+
+.main-ava {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    margin: 0 0 0 8px;
+    vertical-align: middle;
 }
 
 .text-card {
@@ -45,7 +58,7 @@ ol, ul {
 }
 
 .text-card > p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 .work-card {
@@ -111,6 +124,10 @@ ol, ul {
     background-color: #000000f0 !important;
 }
 
+.blog-images img {
+    cursor: pointer;
+}
+
 .blog-images figcaption {
     margin-top: -8px;
     margin-bottom: 24px;
@@ -118,6 +135,17 @@ ol, ul {
     line-height: 20px;
     text-align: center;
     color: #707478;
+}
+
+.works-list {
+    padding: 0;
+}
+.works-list .inner__img {
+    display: block;
+    margin: 0 auto 16px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
 @media(max-width: 500px) {
