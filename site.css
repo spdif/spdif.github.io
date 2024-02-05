@@ -116,7 +116,7 @@ ol, ul {
 .inner__img {
     width: 100%;
     max-width: 700px;
-    border-radius: 16px;
+    border-radius: 32px;
     margin: 0 0 16px;
 }
 
