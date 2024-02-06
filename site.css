@@ -16,6 +16,7 @@ ol, ul {
 
 .btn.back-btn {
     position: fixed;
+    z-index: 1;
     top: 8px;
     padding: 6px 24px 8px;
     border-radius: 50px;    
@@ -146,6 +147,22 @@ ol, ul {
     width: auto;
     max-width: 100%;
     border-radius: 8px;
+}
+
+.video-container {
+    position: relative;
+    height: 0;
+    margin-bottom: 16px;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border-radius: 32px
+}
+.video-container iframe,.video-container object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
 }
 
 @media(max-width: 500px) {
